@@ -1,0 +1,21 @@
+{
+  "locataires": [
+    {
+    "id" : 1,
+    "nom" : "Martin",
+    "prenom" : "Jean",
+    "naissance" : "01012001",
+    "email" : "Martin.jean@email.com",
+    "telephone" : "0601020304"
+    }
+    ,
+    {
+        "id" : 2,
+        "nom" : "Martine",
+        "prenom" : "Jeannne",
+        "dateDeNaissance" : "02022002",
+        "email" : "Martine.jeanne@email.com",
+        "telephone" : "0602030405"
+    }    
+  ]
+}

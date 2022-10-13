@@ -1,13 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import Locataire from './composants/GestionLocataire.Composant';
+import Vehicule from './composants/GestionVehicule.Composant';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
+<link rel="stylesheet"
+href=""/>
+const root = ReactDOM.createRoot(
+  document.getElementById('root') as HTMLElement
+);
 root.render(
   <React.StrictMode>
-    <App />
+    <header>
+      <body>
+      <div>
+      <Locataire/>
+      {/* <Vehicule/> */}
+      </div>
+      </body>
+    </header>
   </React.StrictMode>
 );
 
