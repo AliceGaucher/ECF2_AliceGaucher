@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import '../App.css';
 
+//Je ne suis pas arrivée à sauvegarder les entrées via l'URL, je les voyais pourtant que ce soit dans l'URL ou dans l'inspecteur... ça m'a bloquée sur tout l'exo et je ne suis pas arrivée à trouver de solution à temps...
+
 const Locataire = () => {
 
     //Récupértion de l'input du nom
